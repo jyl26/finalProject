@@ -12,13 +12,12 @@
   display:flex
 }
 .middle{
-    border:2px solid white;
     padding-top:40px;
     width:800px;
     margin: 0 auto;
     height:300px;
     text-align:center;
-    background-color:rgba(0,0,0,0);
+    background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter:blur(4px);
 }
 body{
