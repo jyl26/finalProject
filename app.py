@@ -21,6 +21,12 @@ def category():
         "Number of Customers":230,
         "Number of Repeat Customers":50
     }
-    return render_template('category.html',values=ret)
+    other = {
+        "test 2":100
+    }
+    if int(queryCase) < 3:
+        return render_template('category.html',values=ret)
+    else:
+        return render_template('category.html',values=other)
 if __name__ == "__main__":
     app.run(debug=True,port=5001)
